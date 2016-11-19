@@ -17,6 +17,10 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+app.get('/ui/aboutme.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'aboutme.html'));
+});
+
 app.get('/ui/IMG_20161023_161150375.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'IMG_20161023_161150375.jpg'));
 });
